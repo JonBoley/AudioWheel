@@ -4,9 +4,29 @@
     "children": [
         {
             "name": "Speech",
-            "children": {
-                "name": "Steady - Fluctuating"
-            }
+            "children": [
+                {"name": "Steady - Fluctuating"},
+                {"name": "Tense/Sharp"},
+                {"name": "Dark - Bright"},
+                {"name": "Mechanic"},
+                {"name": "Metallic"},
+                {"name": "Nasal/Whining"},
+                {"name": "Clear - Muffled"},
+                {"name": "Smooth - Interrupted"},
+                {"name": "Rough"},
+                {"name": "Rustling"},
+                {"name": "Scratching"},
+                {"name": "Open - Distant"},
+                {"name": "Humming"},
+                {"name": "Creaking"},
+                {"name": "Noisy"},
+                {"name": "Low - High"},
+                {"name": "Bubbling"},
+                {"name": "Hissing"},
+                {"name": "Boiling"},
+                {"name": "Crackling"},
+                {"name": "Steady - Fluctuating"}
+                ]
         },
         {
             "name": "Spatial",
