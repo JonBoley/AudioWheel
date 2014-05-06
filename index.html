@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+
+<h1>Audio Wheel</h1>
+<div id="vis"></div>
+
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -12,8 +16,6 @@ var width = 840,
     duration = 1000;
 
 var div = d3.select("#vis");
-
-div.select("img").remove();
 
 var vis = div.append("svg")
     .attr("width", width + padding * 2)
