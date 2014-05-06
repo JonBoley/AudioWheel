@@ -33,8 +33,20 @@
             "children": [
                 {
                     "name": "Loudspeakers",
-                    "children": {
-                        "name": "Tone Color"
+                    "children": [
+                        {"name": "Direction"},
+                        {"name": "Depth"},
+                        {"name": "Space"},
+                        {"name": "Movement"},
+                        {"name": "Penetration"},
+                        {"name": "Distance"},
+                        {"name": "Broadness"},
+                        {"name": "Naturalness"},
+                        {"name": "Richness"},
+                        {"name": "Hardness"},
+                        {"name": "Emphasis"},
+                        {"name": "Tone Color"}
+                        ]
                     }
                 },
                 {
@@ -42,21 +54,34 @@
                     "children": [
                         {
                             "name": "Localization",
-                            "children": {
-                                "name": "Localizability"
-                            }
+                            "children": [
+                                {"name": "Distance"},
+                                {"name": "Direction"},
+                                {"name": "Movement"},
+                                {"name": "Localizability"}
+                            ]
                         },
                         {
                             "name": "Spatial",
-                            "children": {
-                                "name": "Broadness"
-                            }
+                            "children": [
+                                {"name": "Echo Quality"},
+                                {"name": "Echo Amount"},
+                                {"name": "Sense of Space"},
+                                {"name": "Balance of Space"},
+                                {"name": "Broadness"}
+                                ]
                         },
                         {
                             "name": "Timbre",
-                            "children": {
-                                "name": "Balance of Sounds"
-                            }
+                            "children": [
+                                {"name": "Seperability"},
+                                {"name": "Tone Color"},
+                                {"name": "Richness"},
+                                {"name": "Distortion"},
+                                {"name": "Disruption"},
+                                {"name": "Clarity"},
+                                {"name": "Balance of Sounds"}
+                            ]
                         }
                     ]
                 }
@@ -64,9 +89,12 @@
         },
         {
             "name": "Other",
-            "children": {
-                "name": "Surround Quality"
-            }
+            "children": [
+                {"name": "Basic Audio Quality"},
+                {"name": "Stereophonic Image Quality"},
+                {"name": "Front Image Quality"},
+                {"name": "Surround Quality"}
+            ]
         }
     ]
 }
