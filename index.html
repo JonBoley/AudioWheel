@@ -40,8 +40,7 @@ d3.json("wheel.json", function(error, json) {
   path.enter().append("path")
       .attr("id", function(d, i) { return "path-" + i; })
       .attr("d", arc)
-      .attr("fill-rule", "evenodd")
-      .on("click", click);
+      .attr("fill-rule", "evenodd");
 
   var text = vis.selectAll("text").data(nodes);
   var textEnter = text.enter().append("text")
