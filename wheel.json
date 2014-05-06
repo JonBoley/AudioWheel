@@ -1,100 +1,51 @@
 {
- "name": "audio",
- "children": [
-  {
-   "name": "Speech",
-   "children": [
-    {
-     "name": "Tense/Sharp",
-     "name": "Dark - Bright",
-     "name": "Mechanic",
-     "name": "Metallic",
-     "name": "Nasal/Whining",
-     "name": "Clear - Muffled",
-     "name": "Smooth - Interrupted",
-     "name": "Rough",
-     "name": "Rustling",
-     "name": "Scratching",
-     "name": "Open - Distant",
-     "name": "Humming",
-     "name": "Creaking",
-     "name": "Noisy",
-     "name": "Low - High",
-     "name": "Bubbling",
-     "name": "Hissing",
-     "name": "Boiling",
-     "name": "Crackling",
-     "name": "Steady - Fluctuating"
-    }
-  },
-  {
-   "name": "Spatial",
-   "children": [
-    {
-     "name": "Loudspeakers",
-     "children": [
-      {
-       "name": "Direction",
-       "name": "Depth",
-       "name": "Space",
-       "name": "Movement",
-       "name": "Penetration",
-       "name": "Distance",
-       "name": "Broadness",
-       "name": "Naturalness",
-       "name": "Richness",
-       "name": "Hardness",
-       "name": "Emphasis",
-       "name": "Tone Color"
-      }
-    },
-    {
-     "name": "Headphones",
-     "children": [
-      {
-       "name": "Localization",
-       "children":
+    "name": "audio",
+    "children": [
         {
-         "name": "Distance",
-         "name": "Direction",
-         "name": "Movement",
-         "name": "Localizability"
-        }
-      },
-      {
-       "name": "Spatial",
-       "children":
+            "name": "Speech",
+            "children": {
+                "name": "Steady - Fluctuating"
+            }
+        },
         {
-         "name": "Echo Quality",
-         "name": "Echo Amount",
-         "name": "Sense of Space",
-         "name": "Balance of Space",
-         "name": "Broadness"
-        }
-      },
-      {
-       "name": "Timbre",
-       "children":
+            "name": "Spatial",
+            "children": [
+                {
+                    "name": "Loudspeakers",
+                    "children": {
+                        "name": "Tone Color"
+                    }
+                },
+                {
+                    "name": "Headphones",
+                    "children": [
+                        {
+                            "name": "Localization",
+                            "children": {
+                                "name": "Localizability"
+                            }
+                        },
+                        {
+                            "name": "Spatial",
+                            "children": {
+                                "name": "Broadness"
+                            }
+                        },
+                        {
+                            "name": "Timbre",
+                            "children": {
+                                "name": "Balance of Sounds"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         {
-         "name": "Seperability",
-         "name": "Tone Color",
-         "name": "Richness",
-         "name": "Distortion",
-         "name": "Disruption",
-         "name": "Clarity",
-         "name": "Balance of Sounds"
+            "name": "Other",
+            "children": {
+                "name": "Surround Quality"
+            }
         }
-      }
-    }
-  },
-  {
-   "name": "Other"
-   "children": 
-    {
-     "name": "Basic Audio Quality",
-     "name": "Stereophonic Image Quality",
-     "name": "Front Image Quality",
-     "name": "Surround Quality",
-    }
-  }
+    ]
 }
