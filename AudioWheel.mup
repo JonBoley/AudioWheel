@@ -1,0 +1,110 @@
+{
+  "title": "Audio Quality",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Pitch",
+      "id": 2
+    },
+    "2": {
+      "title": "Loudness",
+      "id": 6
+    },
+    "3": {
+      "title": "Noise",
+      "id": 13,
+      "ideas": {
+        "1": {
+          "title": "Continuous",
+          "id": 14
+        },
+        "2": {
+          "title": "Transient",
+          "id": 15,
+          "ideas": {
+            "1": {
+              "title": "Reverberation",
+              "id": 17
+            },
+            "2": {
+              "title": "Ringing",
+              "id": 18
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "Timbre",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Spectral",
+          "id": 4,
+          "attr": {
+            "position": [
+              12,
+              -103,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Temporal",
+          "id": 5
+        }
+      }
+    },
+    "-2": {
+      "title": "Space",
+      "id": 7,
+      "ideas": {
+        "1": {
+          "title": "Localization",
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "Left/Right",
+              "id": 10
+            },
+            "2": {
+              "title": "Front/Back",
+              "id": 11
+            },
+            "3": {
+              "title": "Distance",
+              "id": 12
+            }
+          }
+        },
+        "2": {
+          "title": "Environment",
+          "id": 9
+        }
+      }
+    },
+    "-3": {
+      "title": "Time",
+      "id": 16,
+      "attr": {
+        "style": {
+          "background": "transparent"
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 17,
+      "ideaIdTo": 12,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
+}
