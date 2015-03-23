@@ -3,39 +3,376 @@
   "id": 1,
   "formatVersion": 2,
   "ideas": {
-    "1": {
-      "title": "Pitch",
-      "id": 2
-    },
-    "2": {
-      "title": "Loudness",
-      "id": 6
-    },
     "3": {
       "title": "Noise",
       "id": 13,
       "ideas": {
         "1": {
           "title": "Continuous",
-          "id": 14
+          "id": 14,
+          "ideas": {
+            "5": {
+              "title": "High/Low",
+              "id": 46,
+              "ideas": {
+                "1": {
+                  "title": "Hissing",
+                  "id": 28,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "Bubbling",
+                  "id": 29,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "3": {
+                  "title": "Crackling",
+                  "id": 30,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "4": {
+                  "title": "Humming",
+                  "id": 32,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffffff"
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              155,
+              -13.5,
+              1
+            ],
+            "style": {
+              "background": "#ffff00"
+            }
+          }
         },
         "2": {
           "title": "Transient",
           "id": 15,
           "ideas": {
-            "1": {
-              "title": "Reverberation",
-              "id": 17
-            },
-            "2": {
+            "18": {
               "title": "Ringing",
-              "id": 18
+              "id": 18,
+              "ideas": {
+                "1": {
+                  "title": "High/Low Frequency",
+                  "id": 62,
+                  "ideas": {
+                    "1": {
+                      "title": "Metallic",
+                      "id": 41,
+                      "attr": {
+                        "style": {}
+                      }
+                    },
+                    "2": {
+                      "title": "Drumming",
+                      "id": 61,
+                      "attr": {
+                        "style": {}
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ffffff"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "High/Low Amount",
+                  "id": 57,
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "background": "#ffffff"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                },
+                "position": [
+                  90,
+                  -75.5,
+                  1
+                ]
+              }
+            },
+            "23": {
+              "title": "Reverberation",
+              "id": 17,
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              },
+              "ideas": {
+                "3": {
+                  "title": "High/Low",
+                  "id": 58,
+                  "ideas": {
+                    "1": {
+                      "title": "Wet / Dry\n(reverberant/anechoic)",
+                      "id": 40,
+                      "attr": {
+                        "style": {}
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ffffff"
+                    }
+                  }
+                }
+              }
+            },
+            "20.5": {
+              "title": "Pre-echo",
+              "id": 51,
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "High/Low",
+                  "id": 59,
+                  "attr": {
+                    "position": [
+                      86,
+                      -1.5,
+                      1
+                    ],
+                    "style": {
+                      "background": "#ffffff"
+                    }
+                  }
+                }
+              }
             }
           }
         }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ff00"
+        },
+        "position": [
+          118,
+          77,
+          3
+        ]
       }
     },
-    "-1": {
+    "-2": {
+      "title": "Space",
+      "id": 7,
+      "ideas": {
+        "2": {
+          "title": "Environment",
+          "id": 9
+        },
+        "12": {
+          "title": "Localization",
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "Left/Right ; Front/Back",
+              "id": 10
+            },
+            "2": {
+              "title": "Diffuseness",
+              "id": 11,
+              "ideas": {
+                "1": {
+                  "title": "High/Low",
+                  "id": 48,
+                  "attr": {
+                    "style": {
+                      "background": "#ffffff"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            },
+            "3": {
+              "title": "Distance",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "Near/Far",
+                  "id": 60,
+                  "attr": {
+                    "style": {
+                      "background": "#ffffff"
+                    }
+                  }
+                }
+              }
+            },
+            "2.5": {
+              "title": "Movement",
+              "id": 21,
+              "ideas": {
+                "1": {
+                  "title": "Much/Little",
+                  "id": 47,
+                  "attr": {
+                    "style": {
+                      "background": "#ffffff"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {},
+            "position": [
+              143,
+              -8,
+              1
+            ]
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ff00"
+        }
+      }
+    },
+    "-0.5": {
+      "title": "Time",
+      "id": 16,
+      "attr": {
+        "style": {
+          "background": "#00ff00"
+        },
+        "position": [
+          119,
+          -150,
+          2
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Fast/Slow",
+          "id": 34
+        },
+        "2": {
+          "title": "Amount of Silence",
+          "id": 35
+        },
+        "1.5": {
+          "title": "Duration",
+          "id": 49
+        }
+      }
+    },
+    "-0.75": {
+      "title": "Pitch",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Height",
+          "id": 23,
+          "ideas": {
+            "1": {
+              "title": "High/Low",
+              "id": 38,
+              "attr": {
+                "style": {
+                  "background": "#ffffff"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        },
+        "2": {
+          "title": "Chroma",
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": "High/Low",
+              "id": 37,
+              "attr": {
+                "style": {
+                  "background": "#ffffff"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        },
+        "3": {
+          "title": "Salience",
+          "id": 25,
+          "ideas": {
+            "1": {
+              "title": "High/Low",
+              "id": 36,
+              "attr": {
+                "style": {
+                  "background": "#ffffff"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ff00"
+        }
+      }
+    },
+    "1.75": {
       "title": "Timbre",
       "id": 3,
       "ideas": {
@@ -43,54 +380,106 @@
           "title": "Spectral",
           "id": 4,
           "attr": {
-            "position": [
-              12,
-              -103,
-              1
-            ],
             "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "Bandwidth",
+              "id": 26,
+              "ideas": {
+                "1": {
+                  "title": "High/Low",
+                  "id": 53,
+                  "ideas": {
+                    "1": {
+                      "title": "Low end",
+                      "id": 55
+                    },
+                    "2": {
+                      "title": "High end",
+                      "id": 56
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            },
+            "2": {
+              "title": "Shape",
+              "id": 27,
+              "ideas": {
+                "1": {
+                  "title": "Brightness",
+                  "id": 42,
+                  "ideas": {
+                    "1": {
+                      "title": "High/Low",
+                      "id": 45,
+                      "attr": {
+                        "style": {
+                          "background": "#ffffff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ffff00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Resonance",
+                  "id": 43,
+                  "ideas": {
+                    "1": {
+                      "title": "High/Low",
+                      "id": 44,
+                      "attr": {
+                        "style": {
+                          "background": "#ffffff"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ffff00"
+                    }
+                  }
+                },
+                "0.5": {
+                  "title": "Color",
+                  "id": 52,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            }
           }
         },
         "2": {
           "title": "Temporal",
           "id": 5
         }
-      }
-    },
-    "-2": {
-      "title": "Space",
-      "id": 7,
-      "ideas": {
-        "1": {
-          "title": "Localization",
-          "id": 8,
-          "ideas": {
-            "1": {
-              "title": "Left/Right",
-              "id": 10
-            },
-            "2": {
-              "title": "Front/Back",
-              "id": 11
-            },
-            "3": {
-              "title": "Distance",
-              "id": 12
-            }
-          }
-        },
-        "2": {
-          "title": "Environment",
-          "id": 9
+      },
+      "attr": {
+        "style": {
+          "background": "#00ff00"
         }
       }
     },
-    "-3": {
-      "title": "Time",
-      "id": 16,
+    "-1.375": {
+      "title": "Loudness",
+      "id": 6,
       "attr": {
         "style": {
-          "background": "transparent"
+          "background": "#00ff00"
         }
       }
     }
@@ -105,6 +494,31 @@
           "lineStyle": "dashed"
         }
       }
+    },
+    {
+      "ideaIdFrom": 43,
+      "ideaIdTo": 18,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 2,
+      "ideaIdTo": 62,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
     }
-  ]
+  ],
+  "attr": {
+    "style": {
+      "background": "#00ffff"
+    }
+  }
 }
