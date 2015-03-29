@@ -42,6 +42,10 @@
                   "attr": {
                     "style": {}
                   }
+                },
+                "5": {
+                  "title": "Birdies",
+                  "id": 71
                 }
               },
               "attr": {
@@ -191,7 +195,25 @@
       "ideas": {
         "2": {
           "title": "Environment",
-          "id": 9
+          "id": 9,
+          "ideas": {
+            "1": {
+              "title": "Envelopment",
+              "id": 63
+            },
+            "2": {
+              "title": "Width",
+              "id": 64
+            },
+            "3": {
+              "title": "Reverberation",
+              "id": 65
+            },
+            "4": {
+              "title": "Perspective",
+              "id": 73
+            }
+          }
         },
         "12": {
           "title": "Localization",
@@ -452,6 +474,24 @@
                     }
                   }
                 },
+                "3": {
+                  "title": "Balance",
+                  "id": 72,
+                  "ideas": {
+                    "1": {
+                      "title": "Treble",
+                      "id": 74
+                    },
+                    "2": {
+                      "title": "Midrange",
+                      "id": 75
+                    },
+                    "3": {
+                      "title": "Bass",
+                      "id": 76
+                    }
+                  }
+                },
                 "0.5": {
                   "title": "Color",
                   "id": 52,
@@ -466,6 +506,10 @@
         "2": {
           "title": "Temporal",
           "id": 5
+        },
+        "3": {
+          "title": "Distortion",
+          "id": 70
         }
       },
       "attr": {
@@ -480,6 +524,17 @@
       "attr": {
         "style": {
           "background": "#00ff00"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Dynamic Range",
+          "id": 67,
+          "ideas": {}
+        },
+        "2": {
+          "title": "SNR",
+          "id": 69
         }
       }
     }
@@ -508,6 +563,26 @@
     {
       "ideaIdFrom": 2,
       "ideaIdTo": 62,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 65,
+      "ideaIdTo": 17,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 73,
+      "ideaIdTo": 12,
       "attr": {
         "style": {
           "color": "#FF0000",
